@@ -59,7 +59,7 @@ class Morrinn(Messages, GamePlay):
     
             #self.gameDisplay.fill(self.white)
             self.gameDisplay.blit(self.groke, [0,0, 800, 600])
-            self.screenMessage("Velkominn i bord 4", self.black, -150, size = "large" )        
+            self.screenMessage("Velkominn i bord 3", self.black, -150, size = "large" )        
             self.screenMessage("Markmid leiksins er ad safna 10 gullpeningum og fordast morrann", self.black, -70)
             self.screenMessage("Ef thu ferd ut fyrir rammann deyrdu", self.black, -40)
             self.screenMessage("Yttu a S til ad spila eda H til ad haetta", self.red, 20)
